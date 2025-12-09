@@ -1,4 +1,21 @@
-# 🧭 Principles of AI-Augmented Engineering
+# 👋 Hi, I'm Zach Maddox  
+
+**Senior Software Engineer / Architect @ [JBS.dev](https://www.jbs.dev/) | Cloud | Data | Microservices | AI-Augmented Engineering**  
+
+I build secure, scalable, and maintainable systems — from mainframe modernization to microservice orchestration in the cloud.  
+With 15 + years of experience across government and enterprise, I focus on **engineering clarity, reliability, and security** — using AI to accelerate, not replace, human judgment.  
+
+---
+
+### 🌐 Connect with Me
+
+[🌎 zachmaddox.dev](https://zachmaddox.dev)  
+📧 [dev@zachmaddox.dev](mailto:dev@zachmaddox.dev)  
+[💼 LinkedIn](https://www.linkedin.com/in/zachary-maddox-693a9862)  
+
+---
+
+## 🧭 Principles of AI-Augmented Engineering  
 
 ### 1. **Humans Design, AI Builds**  
 AI accelerates implementation, but it does not define architecture or intent.  
@@ -26,15 +43,21 @@ Guide it, correct it, and teach it — but never surrender engineering judgment.
 
 ---
 
-## ⚡ **AI in Capable Hands**
-
+## ⚡ AI in Capable Hands  
 > *AI doesn’t replace expertise — it replaces tedium.*  
 > In skilled hands, AI compresses a month of engineering into days.  
 > In unskilled hands, it just produces garbage faster.  
 >
-> AI magnifies the operator — not the machine.  
+> **AI magnifies the operator — not the machine.**  
 > The outcome reflects the clarity, discipline, and judgment of the engineer guiding it.
 
 ---
 
-*Written and practiced by engineers who believe human judgment, not automation, defines software excellence.*
+## 💼 Career Portfolio  
+For detailed experience, projects, and certifications — including work on U.S. Treasury modernization, energy-sector microservices, and personal research projects like **ActionWatch** and **ScoreCard**:  
+
+📂 [View My Career Archive →](./career-archive/README.md)
+
+---
+
+*Engineer first. Architect always. Augmented by AI — never replaced.*
