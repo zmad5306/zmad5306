@@ -4,7 +4,7 @@
 
 ## 🧭 Overview
 
-AA seasoned **Software Engineer and Architect** with nearly two decades of experience delivering enterprise software, modernizing legacy systems, and mentoring teams. Skilled across both **Java** and **.NET ecosystems**, with deep expertise in **Azure**, **AWS**, **microservices**, and **cloud-native modernization**. Experienced in government and private-sector consulting, consistently focused on security, reliability, and maintainability.
+A seasoned **Software Engineer and Architect** with nearly two decades of experience delivering enterprise software, modernizing legacy systems, and mentoring teams. Skilled across both **Java** and **.NET ecosystems**, with deep expertise in **Azure**, **AWS**, **microservices**, and **cloud-native modernization**. Experienced in government and private-sector consulting, consistently focused on security, reliability, and maintainability.
 
 ---
 
