@@ -158,6 +158,13 @@ Consistent advocate for secure, scalable microservice architectures.
 * Promoted **observability and event-driven design** in distributed systems.  
 * Led efforts in both Java and .NET ecosystems for identity propagation and least-privilege enforcement.  
 
+### 🏠 Homelab & Self-Hosting
+
+* Operate a personal **Linux server** hosting a suite of **containerized workloads** via Docker and Docker Compose.  
+* Manage services such as **Nextcloud**, **Pi-hole**, **WireGuard VPN**, and lightweight monitoring tools.  
+* Maintain secure reverse proxy access and automated updates for a **fully self-contained personal cloud environment**.  
+* Leverage this homelab as a sandbox for experimenting with **container orchestration**, **networking**, and **automation** techniques.  
+
 ---
 
 ## 🧠 Core Technical Skills
