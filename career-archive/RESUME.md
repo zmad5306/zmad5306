@@ -1,6 +1,6 @@
 ZACH MADDOX
 Senior Software Engineer & Cloud Architect
-📧 [dev@zachmaddox.dev](mailto:dev@zachmaddox.dev) | 🌐 [zachmaddox.dev](https://zachmaddox.dev) | 💼 linkedin.com/in/zachary-maddox-693a9862 | 🐙 github.com/zmad5306
+📧 [dev@zachmaddox.dev](mailto:dev@zachmaddox.dev) | 🌐 [zachmaddox.dev](https://zachmaddox.dev) | 💼 [LinkedIN](linkedin.com/in/zachary-maddox-693a9862) | 🐙 [GitHub](github.com/zmad5306)
 
 ---
 
