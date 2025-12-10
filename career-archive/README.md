@@ -150,7 +150,17 @@ A personal R&D project addressing distributed transaction orchestration across m
 ### 🕵️ ActionWatch — GitHub Actions Monitoring & Insights
 
 **Tech Stack:** TypeScript • Next.js • Tailwind • JWT • OAuth • GitHub API • PostgreSQL  
-A full-stack analytics platform visualizing GitHub Actions workflow data in real time. Includes authentication, TOTP-secured dashboards, and live WebSocket event streaming.
+A full-stack analytics platform visualizing GitHub Actions workflow data in real time with authentication, TOTP-secured dashboards, and live WebSocket event streaming.
+
+### 🌍 Open Source Contributions — _Chunking Collector_
+
+**Tech Stack:** Java • Streams API • Maven Central • Open Source  
+Passionate about contributing back to the developer community, Zach maintains **[Chunking Collector](https://github.com/zmad5306/chunking-collector)** — an open-source Java library providing a **high-performance, memory-efficient way to collect streams in chunks** for batch processing and data pipelines.
+
+- Published on [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview).
+- 100% dependency-free, Java 8+ compatible, and built with focus on simplicity and performance.
+- Actively maintained, with contributions from other engineers in the open-source community.  
+  This project exemplifies Zach’s belief that **open source is the backbone of modern software engineering** — and that sharing well-crafted tools elevates the entire ecosystem.
 
 ### 🔐 Microservice Security & Advocacy
 

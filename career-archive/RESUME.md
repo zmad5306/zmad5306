@@ -78,6 +78,16 @@ _2021 – Present_
 - **ActionWatch:** TypeScript / Next.js platform visualizing GitHub Actions pipelines in real time with authenticated dashboards.
 - **Homelab & Self-Hosting:** Operates private **Linux-based server** running containerized apps (Nextcloud, Pi-hole, WireGuard VPN) with Docker Compose and monitoring.
 
+### 🌍 Open Source Contributions — _Chunking Collector_
+
+**Tech Stack:** Java • Streams API • Maven Central  
+Proud open-source contributor and maintainer of **[Chunking Collector](https://github.com/zmad5306/chunking-collector)** — a lightweight, high-performance Java library for **collecting streams in fixed-size chunks**, designed for batch processing and data-intensive workflows.
+
+- Published to [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) for easy integration.
+- Built for performance, simplicity, and zero dependencies.
+- Represents Zach’s dedication to contributing reusable, production-grade tools that strengthen the open-source ecosystem.
+  > _Open source is how I give back — sharing tools that make good engineering accessible to everyone._
+
 ---
 
 ## CERTIFICATIONS
