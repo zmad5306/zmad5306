@@ -82,8 +82,9 @@ _2021 – Present_
 
 ## CERTIFICATIONS
 
-- **☕ Azul PartnerConnect:** Certified OpenJDK Migration Services & Advisory Partner, Platform Prime & Core Certified Engineer
+- **☕ Azul PartnerConnect:** Certified OpenJDK Migration Services & Advisory Partner, Platform Prime & Core Certified Engineer (2024)
 - **☁️ Microsoft Azure:** Certified Solutions Architect Expert (2023), Administrator Associate (2023)
+- **🌀 Scrum Alliance:** Certified ScrumMaster (CSM) (2019)
 
 ---
 

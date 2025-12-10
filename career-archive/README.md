@@ -185,15 +185,19 @@ Consistent advocate for secure, scalable microservice architectures.
 
 Earned multiple certifications through Azul’s PartnerConnect program:
 
-- **Certified OpenJDK Migration Services Partner**
-- **Certified OpenJDK Migration Advisory Partner**
-- **Platform Prime Certified Partner Engineer**
-- **Platform Core Certified Partner Engineer**
+- **Certified OpenJDK Migration Services Partner** _(2024)_
+- **Certified OpenJDK Migration Advisory Partner** _(2024)_
+- **Platform Prime Certified Partner Engineer** _(2024)_
+- **Platform Core Certified Partner Engineer** _(2024)_
 
 ### ☁️ Microsoft Certifications
 
 - **Microsoft Certified: Azure Solutions Architect Expert** _(May 2023)_
 - **Microsoft Certified: Azure Administrator Associate** _(March 2023)_
+
+### 🌀 Agile & Scrum Certifications
+
+- **Certified ScrumMaster (CSM) — Scrum Alliance** _(2019)_
 
 ---
 
