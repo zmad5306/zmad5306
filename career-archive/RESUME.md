@@ -1,4 +1,5 @@
-ZACH MADDOX
+# ZACH MADDOX
+
 Senior Software Engineer & Cloud Architect
 📧 [dev@zachmaddox.dev](mailto:dev@zachmaddox.dev) | 🌐 [zachmaddox.dev](https://zachmaddox.dev) | 💼 [LinkedIn](https://www.linkedin.com/in/zachary-maddox-693a9862) | 🐙 [GitHub](https://github.com/zmad5306)
 
@@ -6,7 +7,7 @@ Senior Software Engineer & Cloud Architect
 
 ## PROFESSIONAL SUMMARY
 
-Experienced **Software Engineer and Cloud Architect** with nearly **20 years** of expertise spanning government and private-sector modernization. Skilled in designing, implementing, and maintaining **secure, scalable, cloud-native applications** across **Azure** and **AWS**. Adept at transforming legacy systems into resilient, maintainable architectures using **Java (Spring Boot)**, **.NET**, and **containerized microservices**.
+Experienced **Software Engineer and Cloud Architect** with nearly **20 years** of expertise spanning government and private-sector modernization. Skilled in designing, implementing, and maintaining **secure, scalable, cloud-native applications** across **Azure** and **AWS**. Adept at transforming legacy systems into resilient, maintainable architectures using **Java (Spring Boot)**, **.NET**, **containerized microservices**, **Node.js**, **Angular**, **React**, and **TypeScript**.
 
 Champion of **AI-augmented engineering**, treating AI as a force multiplier — accelerating delivery without sacrificing architectural intent or human oversight.
 
