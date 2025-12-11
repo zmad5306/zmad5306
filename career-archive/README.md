@@ -2,7 +2,7 @@
 
 ---
 
-## 🧭 Overview
+## 🌟 Overview
 
 A seasoned **Software Engineer and Architect** with nearly two decades of experience delivering enterprise software, modernizing legacy systems, and mentoring teams. Skilled across both **Java** and **.NET ecosystems**, with deep expertise in **Azure**, **AWS**, **microservices**, and **cloud-native modernization**. Experienced in government and private-sector consulting, consistently focused on security, reliability, and maintainability.
 
@@ -17,13 +17,16 @@ Served as a federal software engineer and later technical lead within the Bureau
 ### 🧩 Developer / Senior Developer (2007 – 2016)
 
 - Developed and maintained **COBOL/CICS** applications backed by **DB2**, processing high-volume financial transactions for Treasury systems.
+
 - Built and enhanced **Java EE / WebSphere** applications integrating directly with mainframe services via **IBM MQ**.
+
 - Delivered regular releases for **[TreasuryDirect.gov](https://treasurydirect.gov)** — the official Treasury platform for buying and managing government securities.
 
   - Re-engineered authentication to add **multi-factor login (MFA)** and **LexisNexis identity verification (IDV)**.
   - Enhanced **tax reporting**, savings-bond redemption, and recordkeeping workflows.
 
 - Designed and implemented utilities to **digitize and serve savings bond images** with integrated metadata for customer-service access.
+
 - Introduced automated testing frameworks using **JUnit** and **Selenium**, improving release reliability.
 
 ### ⚙️ Architect / Team Lead (2016 – 2021)
@@ -45,6 +48,7 @@ Served as a federal software engineer and later technical lead within the Bureau
 #### 🧾 [Treasury Check Verification System (TCVS)](https://tcvs.fiscal.treasury.gov/)
 
 - Served as lead architect and developer for the **Treasury Check Verification System (TCVS)** — a fraud-prevention platform created in response to COVID-era economic relief.
+
 - Designed and implemented:
 
   - **C# / .NET Azure Functions** backend with **Azure SQL** and **API Management**
@@ -53,7 +57,7 @@ Served as a federal software engineer and later technical lead within the Bureau
 
 - Allowed financial institutions to verify Treasury checks in real time, preventing fraudulent claims and saving millions in potential losses.
 
-#### 🖼️ Savings Bond Image Viewer Modernization
+#### 🔺 Savings Bond Image Viewer Modernization
 
 - Led a full modernization of the legacy **Java Applet–based image viewer**, used by customer service agents to view savings bond images.
 - Designed and implemented a **Spring Boot** backend with a secure **HTML5 Canvas**–based frontend for real-time image manipulation (flip, rotate, invert colors, zoom).
@@ -118,7 +122,7 @@ Serving as a consultant and senior developer/architect across multiple engagemen
 - Designed standardized gateway and API policies for unified security enforcement across environments.
 - Advocated for **microservice architecture** emphasizing autonomy, observability, and security-by-design.
 
-#### 🧮 Data Engineering & ADF Modernization
+#### 🧱 Data Engineering & ADF Modernization
 
 - Designed and maintained **Azure Data Factory (ADF)** pipelines and **SSIS** packages.
 - Built PowerShell and YAML-based CI/CD automation for ADF deployments with parameterized environments.
@@ -139,7 +143,7 @@ Serving as a consultant and senior developer/architect across multiple engagemen
 
 ### ⚡ ScoreCard — Distributed Microservice Transaction Orchestration
 
-**Tech Stack:** Java 17 • Spring Boot • REST API • OpenAPI / Swagger • PostgreSQL • Docker • JSON Schema • Maven  
+**Tech Stack:** Java 17 • Spring Boot • REST API • OpenAPI / Swagger • PostgreSQL • Docker • JSON Schema • Maven
 A personal R&D project addressing distributed transaction orchestration across microservices. Implements a custom **ScoreCard engine** to record, reconcile, and recover transactional workflows inspired by the **Saga** and **Transactional Outbox** patterns.
 
 - Modular architecture separating orchestration, persistence, and service APIs.
@@ -149,18 +153,47 @@ A personal R&D project addressing distributed transaction orchestration across m
 
 ### 🕵️ ActionWatch — GitHub Actions Monitoring & Insights
 
-**Tech Stack:** TypeScript • Next.js • Tailwind • JWT • OAuth • GitHub API • PostgreSQL  
+**Tech Stack:** TypeScript • Next.js • Tailwind • JWT • OAuth • GitHub API • PostgreSQL
 A full-stack analytics platform visualizing GitHub Actions workflow data in real time with authentication, TOTP-secured dashboards, and live WebSocket event streaming.
 
-### 🌍 Open Source Contributions — _Chunking Collector_
+### 🌍 Chunking Collector — Open Source Java Library
 
-**Tech Stack:** Java • Streams API • Maven Central • Open Source  
-Passionate about contributing back to the developer community, Zach maintains **[Chunking Collector](https://github.com/zmad5306/chunking-collector)** — an open-source Java library providing a **high-performance, memory-efficient way to collect streams in chunks** for batch processing and data pipelines.
+**Tech Stack:** Java 8+ • Streams API • Maven Central • GitHub Actions • JavaDoc
+**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) • [JavaDoc](https://zachmaddox.dev/chunking-collector/latest/) • [GitHub](https://github.com/zmad5306/chunking-collector)
 
-- Published on [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview).
-- 100% dependency-free, Java 8+ compatible, and built with focus on simplicity and performance.
-- Actively maintained, with contributions from other engineers in the open-source community.  
-  This project exemplifies Zach’s belief that **open source is the backbone of modern software engineering** — and that sharing well-crafted tools elevates the entire ecosystem.
+**Chunking Collector** is a lightweight, zero-dependency Java library that extends the **Stream API** to make data batching and segmentation both elegant and memory-efficient.
+It provides collectors and utilities for **fixed-size chunks, sliding windows, and weighted batch collection** — ideal for stream processing, ETL pipelines, or any workload that needs to handle large datasets gracefully.
+
+#### ✨ Highlights
+
+- Implemented as a native **Stream Collector**, integrating seamlessly with Java’s functional APIs.
+- **No dependencies**, Java 8+ compatible, and published to **Maven Central**.
+- Versioned **JavaDoc** hosted on a custom domain at [zachmaddox.dev](https://zachmaddox.dev/chunking-collector).
+- Automated CI/CD via **GitHub Actions**, publishing tagged versions to Maven Central and deploying versioned docs.
+- Designed for **clarity, performance, and reliability** — tested across stream types (`List`, `Set`, primitives, custom collectors).
+
+#### 🧩 Maven Dependency
+
+```xml
+<dependency>
+  <groupId>dev.zachmaddox</groupId>
+  <artifactId>chunking-collector</artifactId>
+  <version>1.1.0</version>
+</dependency>
+```
+
+#### 💬 Description
+
+Built to solve a recurring pain point in stream processing — how to efficiently group elements into sublists without custom loop logic — Chunking Collector turns this into a **one-liner**:
+
+```java
+List<List<Integer>> batches = IntStream.range(0, 100)
+    .boxed()
+    .collect(Chunking.fixedSize(10));
+```
+
+The project represents Zach’s belief that **open source should be simple, elegant, and immediately useful**.
+It’s not just a library — it’s a demonstration of thoughtful API design and modern CI automation.
 
 ### 🔐 Microservice Security & Advocacy
 
@@ -181,15 +214,15 @@ Consistent advocate for secure, scalable microservice architectures.
 
 ## 🧠 Core Technical Skills
 
-**Languages:** Java • C# • Python • Kotlin • JavaScript • TypeScript • SQL  
-**Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Azure Functions • Angular • React • MuleSoft ESB • Flask • Express  
-**Cloud & DevOps:** Azure (App Service, Functions, API Management, ARM, Key Vault, Data Factory) • AWS (ECS, ECR, S3, CloudFormation) • Docker • Kubernetes • Terraform • CI/CD with Azure DevOps, Bamboo, and GitHub Actions  
-**Databases:** SQL Server • PostgreSQL • DB2 • Oracle • TimescaleDB • MongoDB • Redis  
+**Languages:** Java • C# • Python • Kotlin • JavaScript • TypeScript • SQL
+**Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Azure Functions • Angular • React • MuleSoft ESB • Flask • Express
+**Cloud & DevOps:** Azure (App Service, Functions, API Management, ARM, Key Vault, Data Factory) • AWS (ECS, ECR, S3, CloudFormation) • Docker • Kubernetes • Terraform • CI/CD with Azure DevOps, Bamboo, and GitHub Actions
+**Databases:** SQL Server • PostgreSQL • DB2 • Oracle • TimescaleDB • MongoDB • Redis
 **Security:** OAuth2 / OIDC • Bearer Tokens • CAIA Integration • FedRAMP High Compliance • RBAC
 
 ---
 
-## 🧾 Certifications
+## 💾 Certifications
 
 ### ☕ Azul PartnerConnect – Java Platform Certifications
 
@@ -205,7 +238,7 @@ Earned multiple certifications through Azul’s PartnerConnect program:
 - **Microsoft Certified: Azure Solutions Architect Expert** _(May 2023)_
 - **Microsoft Certified: Azure Administrator Associate** _(March 2023)_
 
-### 🌀 Agile & Scrum Certifications
+### 🔀 Agile & Scrum Certifications
 
 - **Certified ScrumMaster (CSM) — Scrum Alliance** _(2019)_
 

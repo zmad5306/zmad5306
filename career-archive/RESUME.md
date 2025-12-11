@@ -78,15 +78,32 @@ _2021 – Present_
 - **ActionWatch:** TypeScript / Next.js platform visualizing GitHub Actions pipelines in real time with authenticated dashboards.
 - **Homelab & Self-Hosting:** Operates private **Linux-based server** running containerized apps (Nextcloud, Pi-hole, WireGuard VPN) with Docker Compose and monitoring.
 
-### 🌍 Open Source Contributions — _Chunking Collector_
+### 🌍 Chunking Collector — Open Source Java Library
 
-**Tech Stack:** Java • Streams API • Maven Central  
-Proud open-source contributor and maintainer of **[Chunking Collector](https://github.com/zmad5306/chunking-collector)** — a lightweight, high-performance Java library for **collecting streams in fixed-size chunks**, designed for batch processing and data-intensive workflows.
+**Tech Stack:** Java 8+ • Streams API • Maven Central • GitHub Actions • JavaDoc
+**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) • [JavaDoc](https://zachmaddox.dev/chunking-collector/latest/) • [GitHub](https://github.com/zmad5306/chunking-collector)
 
-- Published to [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) for easy integration.
-- Built for performance, simplicity, and zero dependencies.
-- Represents Zach’s dedication to contributing reusable, production-grade tools that strengthen the open-source ecosystem.
-  > _Open source is how I give back — sharing tools that make good engineering accessible to everyone._
+**Chunking Collector** is a zero-dependency Java library that extends the Stream API for **batching, segmentation, and windowed collection** of data. It enables expressive, memory-safe chunking of streams without loops or side effects.
+
+- Built as a native `Collector` implementation for seamless use with Java streams.
+- 100% dependency-free and Java 8+ compatible.
+- Versioned JavaDocs hosted at [zachmaddox.dev](https://zachmaddox.dev/chunking-collector).
+- Automated **GitHub Actions** workflow publishes new versions to Maven Central and GitHub Pages.
+- Demonstrates strong API design, CI automation, and open-source craftsmanship.
+
+```xml
+<dependency>
+  <groupId>dev.zachmaddox</groupId>
+  <artifactId>chunking-collector</artifactId>
+  <version>1.1.0</version>
+</dependency>
+```
+
+> _Open source is how I give back — creating tools that make elegant, reliable engineering accessible to everyone._
+
+### 🏠 Homelab & Self-Hosting
+
+Operates a self-hosted **Linux server** running containerized applications (Nextcloud, Pi-hole, WireGuard VPN) via Docker Compose — a sandbox for continuous learning, networking, and automation.
 
 ---
 
