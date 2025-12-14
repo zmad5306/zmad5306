@@ -174,7 +174,7 @@ A full-stack analytics platform visualizing GitHub Actions workflow data in real
 ### 🌍 Chunking Collector — Open Source Java Library
 
 **Tech Stack:** Java 8+ • Streams API • Maven Central • GitHub Actions • JavaDoc
-**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) • [JavaDoc](https://zachmaddox.dev/chunking-collector/latest/) • [GitHub](https://github.com/zmad5306/chunking-collector)
+**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/ChunkingCollector/overview) • [JavaDoc](https://zachmaddox.dev/ChunkingCollector/latest/) • [GitHub](https://github.com/zmad5306/ChunkingCollector)
 
 **Chunking Collector** is a lightweight, zero-dependency Java library that extends the **Stream API** to make data batching and segmentation both elegant and memory-efficient.
 It provides collectors and utilities for **fixed-size chunks, sliding windows, and weighted batch collection** — ideal for stream processing, ETL pipelines, or any workload that needs to handle large datasets gracefully.
@@ -183,7 +183,7 @@ It provides collectors and utilities for **fixed-size chunks, sliding windows, a
 
 - Implemented as a native **Stream Collector**, integrating seamlessly with Java’s functional APIs.
 - **No dependencies**, Java 8+ compatible, and published to **Maven Central**.
-- Versioned **JavaDoc** hosted on a custom domain at [zachmaddox.dev](https://zachmaddox.dev/chunking-collector).
+- Versioned **JavaDoc** hosted on a custom domain at [zachmaddox.dev](https://zachmaddox.dev/ChunkingCollector).
 - Automated CI/CD via **GitHub Actions**, publishing tagged versions to Maven Central and deploying versioned docs.
 - Designed for **clarity, performance, and reliability** — tested across stream types (`List`, `Set`, primitives, custom collectors).
 
@@ -201,7 +201,7 @@ It provides collectors and utilities for **fixed-size chunks, sliding windows, a
 
 - 📦 GitHub Repository: [https://github.com/zmad5306/ChunkingCollector](https://github.com/zmad5306/ChunkingCollector)
 - 🧩 Maven Central: [https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview)
-- 📘 JavaDoc: [https://zachmaddox.dev/chunking-collector/latest/](https://zachmaddox.dev/chunking-collector/latest/)
+- 📘 JavaDoc: [https://zachmaddox.dev/ChunkingCollector/latest/](https://zachmaddox.dev/ChunkingCollector/latest/)
 
 #### 💬 Description
 

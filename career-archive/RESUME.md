@@ -103,7 +103,7 @@ A TypeScript / Next.js platform that visualizes GitHub Actions pipelines in real
 ### 🌍 **Chunking Collector — Open Source Java Library**
 
 **Tech Stack:** Java 8+ • Streams API • Maven Central • GitHub Actions • JavaDoc
-**Links:** GitHub — [https://github.com/zmad5306/ChunkingCollector](https://github.com/zmad5306/ChunkingCollector) | Maven Central — [https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) | JavaDoc — [https://zachmaddox.dev/chunking-collector/latest/](https://zachmaddox.dev/chunking-collector/latest/)
+**Links:** GitHub — [https://github.com/zmad5306/ChunkingCollector](https://github.com/zmad5306/ChunkingCollector) | Maven Central — [https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) | JavaDoc — [https://zachmaddox.dev/ChunkingCollector/latest/](https://zachmaddox.dev/ChunkingCollector/latest/)
 
 A zero-dependency Java library that extends the Stream API for **batching, segmentation, and windowing**. Implements fast, memory-safe chunking via native Collector implementations.
 

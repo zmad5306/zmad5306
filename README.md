@@ -67,7 +67,7 @@ For detailed experience, projects, and certifications — including work on U.S.
 📂 [View My Career Archive →](./career-archive/README.md)
 
 If you work with Java and streams, check out my open-source project  
-👉 [Chunking Collector on GitHub](https://github.com/zmad5306/chunking-collector)
+👉 [Chunking Collector on GitHub](https://github.com/zmad5306/ChunkingCollector)
 
 ---
 
