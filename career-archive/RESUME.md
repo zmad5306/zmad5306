@@ -126,7 +126,9 @@ Operates a self-hosted **Linux server** running containerized applications (Next
 ## EDUCATION
 
 **M.S., Information Systems Management** — Keller Graduate School of Management, 2009
+
 **B.S., Computer Information Systems** — DeVry University, 2007
+
 **A.A.B., Computer Systems / Programming** — Washington State Community College, 2004
 
 ---
