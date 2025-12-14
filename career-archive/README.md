@@ -174,7 +174,7 @@ A full-stack analytics platform visualizing GitHub Actions workflow data in real
 ### 🌍 Chunking Collector — Open Source Java Library
 
 **Tech Stack:** Java 8+ • Streams API • Maven Central • GitHub Actions • JavaDoc
-**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/ChunkingCollector/overview) • [JavaDoc](https://zachmaddox.dev/ChunkingCollector/latest/) • [GitHub](https://github.com/zmad5306/ChunkingCollector)
+**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) • [JavaDoc](https://zachmaddox.dev/ChunkingCollector/latest/) • [GitHub](https://github.com/zmad5306/ChunkingCollector)
 
 **Chunking Collector** is a lightweight, zero-dependency Java library that extends the **Stream API** to make data batching and segmentation both elegant and memory-efficient.
 It provides collectors and utilities for **fixed-size chunks, sliding windows, and weighted batch collection** — ideal for stream processing, ETL pipelines, or any workload that needs to handle large datasets gracefully.
