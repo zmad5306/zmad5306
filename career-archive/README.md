@@ -4,7 +4,7 @@
 
 ## 🌟 Overview
 
-A seasoned **Software Engineer and Architect** with nearly two decades of experience delivering enterprise software, modernizing legacy systems, and mentoring teams. Skilled across both **Java** and **.NET ecosystems**, with deep expertise in **Azure**, **AWS**, **microservices**, and **cloud-native modernization**. Experienced in government and private-sector consulting, consistently focused on security, reliability, and maintainability.
+A seasoned **Software Engineer and Architect** with nearly two decades of experience delivering enterprise software, modernizing legacy systems, and mentoring teams. Skilled across both **Java** and **.NET ecosystems**, with deep expertise in **Azure**, **AWS**, **microservices**, and **cloud-native modernization**. Strong foundation in **JavaScript** and **TypeScript**, including extensive work with **Node.js**, **Angular**, and hands-on **React** experience for full-stack development. Experienced in government and private-sector consulting, consistently focused on security, reliability, and maintainability.
 
 ---
 
@@ -93,6 +93,7 @@ Served as a federal software engineer and later technical lead within the Bureau
 - **Legacy Replacement:** Designed a secure, modern alternative to the Java Applet Image Viewer.
 - **Cloud Leadership:** Designed, governed, and maintained the Bureau’s first Azure platform and Infrastructure-as-Code automation.
 - **Mentorship & Culture:** Built and led a high-performing full-stack development team.
+- **Web Modernization:** Drove enterprise adoption of **Angular**, **React**, and **Node.js** for full-stack applications.
 
 ---
 
@@ -235,7 +236,7 @@ Consistent advocate for secure, scalable microservice architectures.
 ## 🧠 Core Technical Skills
 
 **Languages:** Java • C# • Python • Kotlin • JavaScript • TypeScript • SQL
-**Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Azure Functions • Angular • React • MuleSoft ESB • Flask • Express
+**Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Node.js • Express • Angular • React • Azure Functions • MuleSoft ESB  • Flask
 **Cloud & DevOps:** Azure (App Service, Functions, API Management, ARM, Key Vault, Data Factory) • AWS (ECS, ECR, S3, CloudFormation) • Docker • Kubernetes • Terraform • CI/CD with Azure DevOps, Bamboo, and GitHub Actions
 **Databases:** SQL Server • PostgreSQL • DB2 • Oracle • TimescaleDB • MongoDB • Redis
 **Security:** OAuth2 / OIDC • Bearer Tokens • CAIA Integration • FedRAMP High Compliance • RBAC
