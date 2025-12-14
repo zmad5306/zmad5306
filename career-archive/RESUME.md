@@ -1,6 +1,6 @@
 ZACH MADDOX
 Senior Software Engineer & Cloud Architect
-📧 [dev@zachmaddox.dev](mailto:dev@zachmaddox.dev) | 🌐 [zachmaddox.dev](https://zachmaddox.dev) | 💼 [LinkedIn](https://www.linkedin.com/in/zachary-maddox-693a9862) | 🐙 [GitHub](https://github.com/zmad5306)
+📧 [dev@zachmaddox.dev](mailto:dev@zachmaddox.dev) | 🌐 [https://zachmaddox.dev](https://zachmaddox.dev) | 💼 LinkedIn: [https://www.linkedin.com/in/zachary-maddox-693a9862](https://www.linkedin.com/in/zachary-maddox-693a9862) | 🐙 GitHub: [https://github.com/zmad5306](https://github.com/zmad5306)
 
 ---
 
@@ -21,7 +21,7 @@ Champion of **AI-augmented engineering**, treating AI as a force multiplier — 
 - **DevOps & Tools:** Docker, Kubernetes, Terraform, Azure DevOps, Bamboo, GitHub Actions
 - **Security:** OAuth2 / OIDC, bearer tokens, RBAC, CAIA integration, secure API gateway design
 - **Data & Analytics:** Azure Data Factory, SSIS, ETL, schema design, SQL optimization
-- **Architecture:** Microservices, event-driven systems, observability, maintainability
+- **Architecture:** Microservices, event-driven systems, distributed transactions, observability, maintainability
 
 ---
 
@@ -74,30 +74,37 @@ _2021 – Present_
 
 ## PERSONAL PROJECTS & RESEARCH
 
-- **ScoreCard:** Java 17 / Spring Boot orchestration engine for **distributed transaction tracking** across microservices.
-- **ActionWatch:** TypeScript / Next.js platform visualizing GitHub Actions pipelines in real time with authenticated dashboards.
-- **Homelab & Self-Hosting:** Operates private **Linux-based server** running containerized apps (Nextcloud, Pi-hole, WireGuard VPN) with Docker Compose and monitoring.
+### ⚡ **ScoreCard — Observability-Driven Distributed Transaction Engine**
 
-### 🌍 Chunking Collector — Open Source Java Library
+**Tech Stack:** Java 21 • Spring Boot • REST API • OpenAPI • PostgreSQL • JMS/ActiveMQ • Docker • Maven
+**Links:** GitHub — [https://github.com/zmad5306/ScoreCard](https://github.com/zmad5306/ScoreCard) | Research Blog — [https://zachmaddox.dev/blog/2025/12/14/score-card.html](https://zachmaddox.dev/blog/2025/12/14/score-card.html)
+
+**ScoreCard** is an advanced R&D project investigating how to coordinate multi-step, cross-service workflows **without 2PC, global locks, or tightly coupled orchestrators**. It models business transactions as graphs of dependent actions and uses **observability signals** — action reports, correlation IDs, and service metadata — to reconstruct end-to-end execution.
+
+It demonstrates how microservices can remain **autonomous** while still participating in coherent, traceable, and recoverable workflows.
+
+**Highlights:**
+
+- Explicit modeling of services, actions, and dependency graphs
+- Real-time tracking of action states and metadata
+- Failure detection with compensation flows (e.g., reversing partial bank transfers)
+- Developer UIs for live monitoring and workflow design
+- Example microservices demonstrating sequencing, retries, and resilience patterns
+
+---
+
+### 🕵️ **ActionWatch — GitHub Actions Monitoring & Insights**
+
+A TypeScript / Next.js platform that visualizes GitHub Actions pipelines in real time with authentication, TOTP security, and WebSocket-based event streaming.
+
+---
+
+### 🌍 **Chunking Collector — Open Source Java Library**
 
 **Tech Stack:** Java 8+ • Streams API • Maven Central • GitHub Actions • JavaDoc
-**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) • [JavaDoc](https://zachmaddox.dev/chunking-collector/latest/) • [GitHub](https://github.com/zmad5306/chunking-collector)
+**Links:** GitHub — [https://github.com/zmad5306/ChunkingCollector](https://github.com/zmad5306/ChunkingCollector) | Maven Central — [https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) | JavaDoc — [https://zachmaddox.dev/chunking-collector/latest/](https://zachmaddox.dev/chunking-collector/latest/)
 
-**Chunking Collector** is a zero-dependency Java library that extends the Stream API for **batching, segmentation, and windowed collection** of data. It enables expressive, memory-safe chunking of streams without loops or side effects.
-
-- Built as a native `Collector` implementation for seamless use with Java streams.
-- 100% dependency-free and Java 8+ compatible.
-- Versioned JavaDocs hosted at [zachmaddox.dev](https://zachmaddox.dev/chunking-collector).
-- Automated **GitHub Actions** workflow publishes new versions to Maven Central and GitHub Pages.
-- Demonstrates strong API design, CI automation, and open-source craftsmanship.
-
-```xml
-<dependency>
-  <groupId>dev.zachmaddox</groupId>
-  <artifactId>chunking-collector</artifactId>
-  <version>1.1.0</version>
-</dependency>
-```
+A zero-dependency Java library that extends the Stream API for **batching, segmentation, and windowing**. Implements fast, memory-safe chunking via native Collector implementations.
 
 > _Open source is how I give back — creating tools that make elegant, reliable engineering accessible to everyone._
 

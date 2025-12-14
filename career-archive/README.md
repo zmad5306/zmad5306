@@ -141,15 +141,29 @@ Serving as a consultant and senior developer/architect across multiple engagemen
 
 ## 🧩 Personal Projects & Innovation
 
-### ⚡ ScoreCard — Distributed Microservice Transaction Orchestration
+### ⚡ ScoreCard — Observability‑Driven Distributed Transaction Engine
 
-**Tech Stack:** Java 17 • Spring Boot • REST API • OpenAPI / Swagger • PostgreSQL • Docker • JSON Schema • Maven
-A personal R&D project addressing distributed transaction orchestration across microservices. Implements a custom **ScoreCard engine** to record, reconcile, and recover transactional workflows inspired by the **Saga** and **Transactional Outbox** patterns.
+**Tech Stack:** Java 21 • Spring Boot • REST API • OpenAPI • PostgreSQL • JMS/ActiveMQ • Docker • Gradle
 
-- Modular architecture separating orchestration, persistence, and service APIs.
-- Versioned **OpenAPI REST** interface for inter-service coordination.
-- **PostgreSQL** persistence with time-based data tracking.
-- Designed for resilience, transparency, and extensibility.
+ScoreCard is a **research-driven distributed systems project** exploring how microservices can participate in multi-step business workflows **without 2PC, orchestration locks, or tightly coupled saga coordinators**. Instead, ScoreCard models a transaction as a graph of dependent actions and uses **observability, correlation IDs, and service-reported state** to reconstruct and reason about end-to-end flows.
+
+Inspired by saga and outbox principles — but not bound to them — ScoreCard emphasizes **loose coupling**: services remain autonomous, communicate through lightweight messages, and report progress back to the ScoreCard engine, which stitches together a coherent transaction timeline.
+
+#### ✨ Highlights
+
+- **Explicit workflow modeling:** services, actions, dependencies, and transaction blueprints.
+- **Loose coupling:** services don’t depend on each other — only on ScoreCard.
+- **Real-time action tracking:** status, metadata, timestamps, and completion graphs.
+- **Failure handling & compensation:** detect partial failures and trigger follow-up actions.
+- **Developer UIs:** live scoreboard and model designer.
+- **Example microservices:** including a complete banking flow with debit→credit sequencing and recovery.
+
+#### 🔗 Links
+
+- 🧠 Research-style paper: [https://zachmaddox.dev/blog/2025/12/14/score-card.html](https://zachmaddox.dev/blog/2025/12/14/score-card.html)
+- 💾 GitHub Repository: [https://github.com/zmad5306/ScoreCard](https://github.com/zmad5306/ScoreCard)
+
+---
 
 ### 🕵️ ActionWatch — GitHub Actions Monitoring & Insights
 
@@ -181,6 +195,12 @@ It provides collectors and utilities for **fixed-size chunks, sliding windows, a
   <version>1.1.0</version>
 </dependency>
 ```
+
+#### 🔗 Links
+
+- 📦 GitHub Repository: [https://github.com/zmad5306/ChunkingCollector](https://github.com/zmad5306/ChunkingCollector)
+- 🧩 Maven Central: [https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview)
+- 📘 JavaDoc: [https://zachmaddox.dev/chunking-collector/latest/](https://zachmaddox.dev/chunking-collector/latest/)
 
 #### 💬 Description
 
