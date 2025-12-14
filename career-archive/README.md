@@ -251,8 +251,6 @@ Consistent advocate for secure, scalable microservice architectures.
 
 ### ☕ Azul PartnerConnect – Java Platform Certifications
 
-Earned multiple certifications through Azul’s PartnerConnect program:
-
 - **Certified OpenJDK Migration Services Partner** _(2024)_
 - **Certified OpenJDK Migration Advisory Partner** _(2024)_
 - **Platform Prime Certified Partner Engineer** _(2024)_
