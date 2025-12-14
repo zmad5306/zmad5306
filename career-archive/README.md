@@ -236,9 +236,13 @@ Consistent advocate for secure, scalable microservice architectures.
 ## 🧠 Core Technical Skills
 
 **Languages:** Java • C# • Python • Kotlin • JavaScript • TypeScript • SQL
-**Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Node.js • Express • Angular • React • Azure Functions • MuleSoft ESB  • Flask
+
+**Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Node.js • Express • Angular • React • Azure Functions • MuleSoft ESB • Flask
+
 **Cloud & DevOps:** Azure (App Service, Functions, API Management, ARM, Key Vault, Data Factory) • AWS (ECS, ECR, S3, CloudFormation) • Docker • Kubernetes • Terraform • CI/CD with Azure DevOps, Bamboo, and GitHub Actions
+
 **Databases:** SQL Server • PostgreSQL • DB2 • Oracle • TimescaleDB • MongoDB • Redis
+
 **Security:** OAuth2 / OIDC • Bearer Tokens • CAIA Integration • FedRAMP High Compliance • RBAC
 
 ---
