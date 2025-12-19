@@ -142,15 +142,29 @@ Serving as a consultant and senior developer/architect across multiple engagemen
 
 ## 🧩 Personal Projects & Innovation
 
-### ⚡ ScoreCard — Distributed Microservice Transaction Orchestration
+### ⚡ ScoreCard — Observability‑Driven Distributed Transaction Engine
 
-**Tech Stack:** Java 17 • Spring Boot • REST API • OpenAPI / Swagger • PostgreSQL • Docker • JSON Schema • Maven
-A personal R&D project addressing distributed transaction orchestration across microservices. Implements a custom **ScoreCard engine** to record, reconcile, and recover transactional workflows inspired by the **Saga** and **Transactional Outbox** patterns.
+**Tech Stack:** Java 21 • Spring Boot • REST API • OpenAPI • PostgreSQL • JMS/ActiveMQ • Docker • Gradle
 
-- Modular architecture separating orchestration, persistence, and service APIs.
-- Versioned **OpenAPI REST** interface for inter-service coordination.
-- **PostgreSQL** persistence with time-based data tracking.
-- Designed for resilience, transparency, and extensibility.
+ScoreCard is a **research-driven distributed systems project** exploring how microservices can participate in multi-step business workflows **without 2PC, orchestration locks, or tightly coupled saga coordinators**. Instead, ScoreCard models a transaction as a graph of dependent actions and uses **observability, correlation IDs, and service-reported state** to reconstruct and reason about end-to-end flows.
+
+Inspired by saga and outbox principles — but not bound to them — ScoreCard emphasizes **loose coupling**: services remain autonomous, communicate through lightweight messages, and report progress back to the ScoreCard engine, which stitches together a coherent transaction timeline.
+
+#### ✨ Highlights
+
+- **Explicit workflow modeling:** services, actions, dependencies, and transaction blueprints.
+- **Loose coupling:** services don’t depend on each other — only on ScoreCard.
+- **Real-time action tracking:** status, metadata, timestamps, and completion graphs.
+- **Failure handling & compensation:** detect partial failures and trigger follow-up actions.
+- **Developer UIs:** live scoreboard and model designer.
+- **Example microservices:** including a complete banking flow with debit→credit sequencing and recovery.
+
+#### 🔗 Links
+
+- 🧠 Research-style paper: [https://zachmaddox.dev/blog/2025/12/14/score-card.html](https://zachmaddox.dev/blog/2025/12/14/score-card.html)
+- 💾 GitHub Repository: [https://github.com/zmad5306/ScoreCard](https://github.com/zmad5306/ScoreCard)
+
+---
 
 ### 🕵️ ActionWatch — GitHub Actions Monitoring & Insights
 
@@ -160,7 +174,7 @@ A full-stack analytics platform visualizing GitHub Actions workflow data in real
 ### 🌍 Chunking Collector — Open Source Java Library
 
 **Tech Stack:** Java 8+ • Streams API • Maven Central • GitHub Actions • JavaDoc
-**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) • [JavaDoc](https://zachmaddox.dev/chunking-collector/latest/) • [GitHub](https://github.com/zmad5306/chunking-collector)
+**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview) • [JavaDoc](https://zachmaddox.dev/ChunkingCollector/latest/) • [GitHub](https://github.com/zmad5306/ChunkingCollector)
 
 **Chunking Collector** is a lightweight, zero-dependency Java library that extends the **Stream API** to make data batching and segmentation both elegant and memory-efficient.
 It provides collectors and utilities for **fixed-size chunks, sliding windows, and weighted batch collection** — ideal for stream processing, ETL pipelines, or any workload that needs to handle large datasets gracefully.
@@ -187,7 +201,7 @@ The project reflects a pragmatic approach to UI engineering: prioritizing correc
 
 - Implemented as a native **Stream Collector**, integrating seamlessly with Java’s functional APIs.
 - **No dependencies**, Java 8+ compatible, and published to **Maven Central**.
-- Versioned **JavaDoc** hosted on a custom domain at [zachmaddox.dev](https://zachmaddox.dev/chunking-collector).
+- Versioned **JavaDoc** hosted on a custom domain at [zachmaddox.dev](https://zachmaddox.dev/ChunkingCollector).
 - Automated CI/CD via **GitHub Actions**, publishing tagged versions to Maven Central and deploying versioned docs.
 - Designed for **clarity, performance, and reliability** — tested across stream types (`List`, `Set`, primitives, custom collectors).
 
@@ -200,6 +214,12 @@ The project reflects a pragmatic approach to UI engineering: prioritizing correc
   <version>1.1.0</version>
 </dependency>
 ```
+
+#### 🔗 Links
+
+- 📦 GitHub Repository: [https://github.com/zmad5306/ChunkingCollector](https://github.com/zmad5306/ChunkingCollector)
+- 🧩 Maven Central: [https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview](https://central.sonatype.com/artifact/dev.zachmaddox/chunking-collector/overview)
+- 📘 JavaDoc: [https://zachmaddox.dev/ChunkingCollector/latest/](https://zachmaddox.dev/ChunkingCollector/latest/)
 
 #### 💬 Description
 
@@ -234,9 +254,13 @@ Consistent advocate for secure, scalable microservice architectures.
 ## 🧠 Core Technical Skills
 
 **Languages:** Java • C# • Python • Kotlin • JavaScript • TypeScript • SQL
-**Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Node.js • Express • Angular • React • Azure Functions • MuleSoft ESB  • Flask
+
+**Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Node.js • Express • Angular • React • Azure Functions • MuleSoft ESB • Flask
+
 **Cloud & DevOps:** Azure (App Service, Functions, API Management, ARM, Key Vault, Data Factory) • AWS (ECS, ECR, S3, CloudFormation) • Docker • Kubernetes • Terraform • CI/CD with Azure DevOps, Bamboo, and GitHub Actions
+
 **Databases:** SQL Server • PostgreSQL • DB2 • Oracle • TimescaleDB • MongoDB • Redis
+
 **Security:** OAuth2 / OIDC • Bearer Tokens • CAIA Integration • FedRAMP High Compliance • RBAC
 
 ---
@@ -244,8 +268,6 @@ Consistent advocate for secure, scalable microservice architectures.
 ## 💾 Certifications
 
 ### ☕ Azul PartnerConnect – Java Platform Certifications
-
-Earned multiple certifications through Azul’s PartnerConnect program:
 
 - **Certified OpenJDK Migration Services Partner** _(2024)_
 - **Certified OpenJDK Migration Advisory Partner** _(2024)_
