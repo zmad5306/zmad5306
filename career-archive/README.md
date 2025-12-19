@@ -165,6 +165,24 @@ A full-stack analytics platform visualizing GitHub Actions workflow data in real
 **Chunking Collector** is a lightweight, zero-dependency Java library that extends the **Stream API** to make data batching and segmentation both elegant and memory-efficient.
 It provides collectors and utilities for **fixed-size chunks, sliding windows, and weighted batch collection** — ideal for stream processing, ETL pipelines, or any workload that needs to handle large datasets gracefully.
 
+### 🧩 Compose Reorderable Grid — Jetpack Compose UI Library
+
+**Tech Stack:** Kotlin • Jetpack Compose • Android • Maven Central • GitHub  
+**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox.compose/compose-reorderable-grid/overview) • [GitHub](https://github.com/zmad5306/compose-reorderable-grid)
+
+**Compose Reorderable Grid** is a production-grade, long-press drag-and-drop grid implementation for **Jetpack Compose**, extracted and refined from a real shipping Android application. It focuses on predictable behavior, gesture stability, and smooth auto-scrolling—solving edge cases that commonly break naïve reorderable grid implementations.
+
+#### ✨ Highlights
+
+- **Long-press drag-and-drop** interaction model aligned with platform expectations.
+- **Smooth auto-scroll while dragging**, even with large, scrollable grids.
+- **Stable gesture handling** that survives recomposition without pointer restarts.
+- **Predictable drop targets** using explicit, padding-aware hit testing.
+- **Minimal, focused API** designed for clarity and safe adoption.
+- Published to **Maven Central** and actively used in production.
+
+The project reflects a pragmatic approach to UI engineering: prioritizing correctness, debuggability, and user trust over clever abstractions. It serves as both a reusable library and a reference implementation for handling complex touch interactions in Compose.
+
 #### ✨ Highlights
 
 - Implemented as a native **Stream Collector**, integrating seamlessly with Java’s functional APIs.

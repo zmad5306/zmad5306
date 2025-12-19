@@ -66,8 +66,11 @@ For detailed experience, projects, and certifications — including work on U.S.
 
 📂 [View My Career Archive →](./career-archive/README.md)
 
-If you work with Java and streams, check out my open-source project  
-👉 [Chunking Collector on GitHub](https://github.com/zmad5306/chunking-collector)
+    If you work with Java and streams, check out my open-source project  
+    👉 [Chunking Collector on GitHub](https://github.com/zmad5306/chunking-collector)
+
+    If you build Android apps with Jetpack Compose, check out my open-source library  
+    👉 [Compose Reorderable Grid on GitHub](https://github.com/zmad5306/compose-reorderable-grid)
 
 ---
 

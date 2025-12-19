@@ -102,6 +102,22 @@ _2021 – Present_
 
 > _Open source is how I give back — creating tools that make elegant, reliable engineering accessible to everyone._
 
+### 📱 Compose Reorderable Grid — Jetpack Compose UI Library
+
+**Tech Stack:** Kotlin • Jetpack Compose • Android • Maven Central • GitHub  
+**Links:** [Maven Central](https://central.sonatype.com/artifact/dev.zachmaddox.compose/compose-reorderable-grid/overview) • [GitHub](https://github.com/zmad5306/compose-reorderable-grid)
+
+**Compose Reorderable Grid** is a production-grade, long-press drag-and-drop grid for **Jetpack Compose**, extracted and refined from a real shipping Android application. It focuses on predictable behavior, gesture stability, and smooth auto-scrolling—addressing edge cases that commonly break naïve reorderable grid implementations.
+
+- Long-press–based drag-and-drop interaction aligned with platform expectations.
+- Smooth auto-scroll while dragging, even with large, scrollable grids.
+- Stable gesture handling that survives recomposition without pointer restarts.
+- Predictable drop targets using explicit, padding-aware hit testing.
+- Minimal, focused API designed for clarity and safe adoption.
+- Published to **Maven Central** and actively used in production.
+
+The project reflects a pragmatic approach to UI engineering—prioritizing correctness, debuggability, and user trust over clever abstractions—and serves as both a reusable library and a reference implementation for complex touch interactions in Compose.
+
 ### 🏠 Homelab & Self-Hosting
 
 Operates a self-hosted **Linux server** running containerized applications (Nextcloud, Pi-hole, WireGuard VPN) via Docker Compose — a sandbox for continuous learning, networking, and automation.
