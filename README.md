@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Zach Maddox
 
-**Senior Software Engineer / Architect @ [JBS.dev](https://www.jbs.dev/) | Cloud | Data | Microservices | AI-Augmented Engineering**
+**Senior Software Engineer / Architect | Cloud | Data | Microservices | AI-Augmented Engineering**
 
 I build secure, scalable, and maintainable systems — from mainframe modernization to microservice orchestration in the cloud.  
 With **nearly two decades of experience** across government and enterprise, I focus on **engineering clarity, reliability, and security** — using AI to accelerate, not replace, human judgment.
