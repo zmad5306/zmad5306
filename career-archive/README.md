@@ -101,7 +101,7 @@ Served as a federal software engineer and later technical lead within the Bureau
 
 ### Overview
 
-Serving as a consultant and senior developer/architect across multiple engagements. Transitioned between DevOps, backend, and data engineering roles — delivering secure, cloud-first solutions with an emphasis on reliability, automation, and performance.
+Serving as a consultant and senior developer/architect across multiple engagements. Transitioned between DevOps, backend, data engineering, and solution architecture roles — delivering secure, cloud-first solutions with an emphasis on reliability, automation, observability, and performance.
 
 #### ☁️ DevOps & Cloud Engineering
 
@@ -130,12 +130,26 @@ Serving as a consultant and senior developer/architect across multiple engagemen
 - Tuned **SQL Server** performance and managed production ETL workloads.
 - Mentored developers on pipeline governance and best practices.
 
+#### ☁️ Cloud-Native Financial Data Platform Modernization
+
+- Architected and delivered cloud-native financial data platforms using **Azure Data Factory**, **Azure Functions**, **SQL Server**, **Blob Storage**, **API Management**, **Application Gateway**, **Key Vault**, private networking, and **.NET microservices**.
+- Designed repeatable Azure infrastructure with **Bicep** and deployment automation, covering resource provisioning, environment configuration, networking, API gateway patterns, storage structures, Function App infrastructure, and release-ready templates.
+- Led secure Azure network and access design for service-to-service communication, including private networking, gateway/API routing, environment isolation, permission review, secret management, and deployment hardening.
+- Modernized partner authentication and data-exchange workflows, including schema design for initial and delta file exchange, pipeline orchestration, SFTP integration, QA/export workflows, and migration of legacy warehouse tracking into microservices-managed SQL stores.
+- Re-architected rewards, transaction, token, and account workflows into orchestrated **ADF pipelines**, microservice database flows, API/webhook integrations, and production-ready operational tooling.
+- Built scalable ingestion and normalization patterns for partner source files across historical loads, daily deltas, reconciliation, account/token synchronization, transaction matching, and production support.
+- Modernized critical financial data pipelines across warehouse, operational, application, rewards, source-data, and microservices databases, including schema changes, staging models, stored procedures, post-deploy scripts, data backfills, reconciliation logic, and release-safe deployments.
+- Improved production observability with Azure dashboards, monitoring alerts, exception handling, replay/backfill utilities, reconciliation reports, health reporting, and reduced-noise API logging.
+- Led data synchronization design between internal systems and external partners, including webhook processing, status updates, idempotent upserts, historical transaction processing, external ID matching, and API batch completion workflows.
+
 ### 💡 Key Accomplishments
 
 - **Migrated an enterprise-scale energy platform to AWS**, implementing containerization, CI/CD automation, and observability.
+- **Architected Azure-native financial data platforms**, combining ADF, Azure Functions, SQL Server, private networking, API gateways, Bicep, and operational monitoring.
 - Delivered full-stack modernization of mission-critical **Java and Angular** systems.
 - Elevated security posture through consistent bearer-token authentication and API governance.
 - Drove operational efficiency and reliability in **ADF-driven ETL** and production data pipelines.
+- Modernized partner data exchange, rewards processing, source-data ingestion, reconciliation, and reporting workflows across legacy and cloud-native systems.
 - Achieved **expert-level PostgreSQL proficiency**, optimizing queries, schema design, and analytics performance.
 
 ---
@@ -257,7 +271,7 @@ Consistent advocate for secure, scalable microservice architectures.
 
 **Frameworks & Platforms:** Spring Boot • .NET / ASP.NET Core • Node.js • Express • Angular • React • Azure Functions • MuleSoft ESB • Flask
 
-**Cloud & DevOps:** Azure (App Service, Functions, API Management, ARM, Key Vault, Data Factory) • AWS (ECS, ECR, S3, CloudFormation) • Docker • Kubernetes • Terraform • CI/CD with Azure DevOps, Bamboo, and GitHub Actions
+**Cloud & DevOps:** Azure (App Service, Functions, API Management, Application Gateway, Blob Storage, ARM, Bicep, Key Vault, Data Factory) • AWS (ECS, ECR, S3, CloudFormation) • Docker • Kubernetes • Terraform • CI/CD with Azure DevOps, Bamboo, and GitHub Actions
 
 **Databases:** SQL Server • PostgreSQL • DB2 • Oracle • TimescaleDB • MongoDB • Redis
 
